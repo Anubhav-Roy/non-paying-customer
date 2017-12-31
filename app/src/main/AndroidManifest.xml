@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="razzappz.non_paying_customer">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -21,20 +21,20 @@
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <service android:name=".MessagingService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
         <service android:name=".InstanceIdService">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_SERVICE"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_SERVICE" />
             </intent-filter>
         </service>
 
+        <activity android:name=".MasterActivity"></activity>
     </application>
 
 </manifest>

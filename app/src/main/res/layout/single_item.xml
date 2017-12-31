@@ -9,6 +9,7 @@
     android:layout_height="wrap_content">
 
     <LinearLayout
+        android:id="@+id/itemLayout"
         android:padding="5dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
