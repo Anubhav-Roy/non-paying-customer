@@ -2,28 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="razzappz.non_paying_customer.MasterActivity">
-
+    tools:context="razzappz.non_paying_customer.OrdinaryForm">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/master_toolbar"
+        android:id="@+id/ordinary_form_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
-
-    <TextView
-        android:id="@+id/masterText"
-        android:textColor="#000"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"
-        android:text="Clicked"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </LinearLayout>

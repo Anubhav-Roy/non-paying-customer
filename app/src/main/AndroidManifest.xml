@@ -34,7 +34,8 @@
             </intent-filter>
         </service>
 
-        <activity android:name=".MasterActivity"></activity>
+        <activity android:name=".MasterActivity" />
+        <activity android:name=".OrdinaryForm"></activity>
     </application>
 
 </manifest>
