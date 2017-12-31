@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "76136867458",
+    "firebase_url": "https://non-paying-customer.firebaseio.com",
+    "project_id": "non-paying-customer",
+    "storage_bucket": "non-paying-customer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76136867458:android:af5d9a404dcb8177",
+        "android_client_info": {
+          "package_name": "razzappz.non_paying_customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76136867458-0boe3vrj35n8lsbs98t77ple91dc95jq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVnmhKWOXBw_bTYJg8opSDY1AIU3TW0z0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
